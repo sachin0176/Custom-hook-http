@@ -1,0 +1,36 @@
+.controls{
+    display: flex;
+    justify-content: space-between;
+}
+
+.controls input{
+    
+    padding: 0.25rem;
+    border: none;
+    flex: 1;
+    font: inherit;
+    border-bottom: 3px solid #ccc;
+    margin-right: 2rem;
+}
+
+.controls input:focus{
+    outline: none;
+    border-color: #7a0144;
+   
+}
+
+.controls button{
+    padding: .5rem 2rem;
+    color: white;
+    background-color: #7a0144;
+    border: 1px solid #7a0144;
+    border-radius: 12px;
+    cursor: pointer;
+    font: inherit;
+}
+
+.controls button:hover,
+.controls button:active{
+    background-color: #9c095a;
+    border: 1px solid #9c095a;
+}
